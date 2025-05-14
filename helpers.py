@@ -14,7 +14,6 @@ def random_password():
     password = ''.join(random.choices(string.ascii_letters + string.digits, k=8))
     return password
 
-# Данные пользователя
 def user_data():
     data = {
             "email": random_email(),
