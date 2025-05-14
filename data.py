@@ -1,0 +1,1 @@
+NOT_AUTORISED = "You should be authorised"
